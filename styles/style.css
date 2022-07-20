@@ -77,7 +77,7 @@
     align-items: flex-start;
 }
 .button-navigation{
-    width: 33%;
+    width: 50%;
     background-color: #161616;
     border-radius: 7px;
     padding: 40px;
@@ -263,9 +263,14 @@
     }
     .footer-container{
         width: 70%;
+        margin: auto;
+    }
+    .footer-column-one h1{
+        padding-bottom: 20px;
     }
     .footer-column-two ul{
         flex-wrap: wrap;
+        padding: 15px 0 30px 0;
     }
     .footer-column-two ul li{
         margin-top: 15px;
