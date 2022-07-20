@@ -96,6 +96,11 @@
     background-color: dodgerblue;
     color: #fff;
 }
+#active-match-page{
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+}
 .transfar-news-section{
     width: 80%;
     display: grid;
@@ -276,14 +281,22 @@
     .transfar-news-section{
         grid-template-columns: repeat(2, 1fr);
         padding-left: 0;
+        width: 100%;
     }
     .transfar-card-details{
-        width: 38%;
+        width: 45%;
     }
     .view-all-button .bottom-hide-button{
         display: block;
         margin: 50px 0;
     }
+    /* upcoming match desing start */
+    .match-flags{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    /* upcoming match desing end */
     /*--------- footer start ---------*/
     .footer-section{
         width: 100%;
@@ -395,14 +408,22 @@ mobile devices
     .transfar-news-section{
         grid-template-columns: repeat(1, 1fr);
         padding-left: 0;
+        width: 100%;
     }
     .transfar-card-details{
-        width: 50%;
+        width: 45%;
     }
     .bottom-hide-button{
         display: none;
     }
     /* match-section end */
+    /* upcoming match desing start */
+    .match-flags{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    /* upcoming match desing end */
     /*--------- footer start --------*/
     .footer-section{
         width: 100%;
