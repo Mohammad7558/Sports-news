@@ -70,8 +70,10 @@
 ------------------ */
 @media screen and (min-width:689px) and (max-width: 992px) {
     .top-banner-flexible-container{
-        padding-top: 20px;
-        height: 30vh;
+        padding: 30px;
+    }
+    .half-width{
+        width: 50%;
     }
     .banner-title{
         font-size: 2.5em;
@@ -80,10 +82,15 @@
     .banner-description{
         padding-top: 20px;
         padding-bottom: 20px;
+        padding-right: 20px;
     }
     .banner-paragraph{
         font-size: 0.2em;
         line-height: 20px;
+    }
+    .top-banner-img img{
+        width: 100%;
+        transform: translateY(30px);
     }
 }
 /*--------------- 
@@ -100,7 +107,7 @@ mobile devices
         padding-right: 20px;
     }
     .banner-title{
-        font-size: 2em;
+        font-size: 1.5em;
         line-height: 40px;
         text-align: center;
     }
@@ -111,7 +118,7 @@ mobile devices
         padding: 0 0 30px 0;
     }
     .banner-paragraph{
-        font-size: 1.5em;
+        font-size: 1.2em;
         padding-top: 15px;
         padding-bottom: 0px;
         line-height: 30px;
@@ -137,8 +144,6 @@ mobile devices
     }
     .top-banner-img{
         padding-top: 40px;
-        flex-direction: column;
-        align-items: center;
     }
     .top-banner-img img{
         width: 100%;
