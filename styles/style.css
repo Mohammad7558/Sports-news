@@ -77,7 +77,7 @@
     align-items: flex-start;
 }
 .button-navigation{
-    width: 50%;
+    width: 20%;
     background-color: #161616;
     border-radius: 7px;
     padding: 40px;
@@ -97,6 +97,7 @@
     color: #fff;
 }
 .transfar-news-section{
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -196,6 +197,33 @@
     background-color: dodgerblue;
     transform: translateY(-15px);
 }
+
+/*----------------- upcoming match desing start -----------------*/
+.match-details{
+    padding: 20px;
+}
+.match-flags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flags-one img{
+    width: 100%;
+}
+.match-team-title, .match-time-para{
+    text-align: center;
+}
+.match-team-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.match-time-para{
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 15px;
+}
+/*----------------- upcoming match desing end -----------------*/
 /*------------------ 
    tablet devices
 ------------------ */
