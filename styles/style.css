@@ -242,6 +242,9 @@ mobile devices
         grid-template-columns: repeat(1, 1fr);
         padding-left: 0;
     }
+    .transfar-card-details{
+        width: 40%;
+    }
     /* match-section end */
 
 }
