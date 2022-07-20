@@ -227,6 +227,7 @@ mobile devices
         padding: 0;
         background-color: transparent;
         width: 80%;
+        margin-bottom: 40px;
     }
     .intarect-btn{
         text-decoration: none;
@@ -237,6 +238,9 @@ mobile devices
         margin-top: 15px;
         border-radius: 10px;
         color: black;
+    }
+    #active{
+        border: 1px solid dodgerblue;
     }
     .transfar-news-section{
         grid-template-columns: repeat(1, 1fr);
