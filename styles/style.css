@@ -71,20 +71,19 @@
 @media screen and (min-width:689px) and (max-width: 992px) {
     .top-banner-flexible-container{
         padding-top: 20px;
-        padding-bottom: 20px;
+        height: 30vh;
     }
     .banner-title{
         font-size: 2.5em;
         line-height: 40px;
     }
+    .banner-description{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .banner-paragraph{
         font-size: 0.2em;
-        padding-top: 15px;
-        padding-bottom: 20px;
         line-height: 20px;
-    }
-    .top-banner-img img{
-        transform: translateY(20px);
     }
 }
 /*--------------- 
@@ -101,7 +100,7 @@ mobile devices
         padding-right: 20px;
     }
     .banner-title{
-        font-size: 1.5em;
+        font-size: 2em;
         line-height: 40px;
         text-align: center;
     }
@@ -142,6 +141,6 @@ mobile devices
         align-items: center;
     }
     .top-banner-img img{
-        width: 90%;
+        width: 100%;
     }
 }
