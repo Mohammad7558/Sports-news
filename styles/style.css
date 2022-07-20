@@ -114,8 +114,6 @@
 }
 .single-transfar-card img{
     width: 100%;
-    border-top-left-radius: 13px;
-    border-top-right-radius: 13px;
 }
 .card-content{
     padding: 20px;
@@ -231,6 +229,47 @@
     padding-top: 15px;
 }
 /*----------------- upcoming match desing end -----------------*/
+/*------------- all News page desing start -------------*/
+.letest-news-container{
+    padding-left: 25px;
+}
+.inner-column{  
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 15px;
+}
+.inner-column:first-child{
+    margin-top: 0;
+}
+.inner-column-one-img{
+    display: flex;
+    align-items: stretch;
+}
+.inner-column-one-img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.inner-column-content{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.inner-column-content .date{
+    margin-bottom: 15px;
+}
+.inner-column-content .news-title{
+    transition: color 0.2s, transform 0.2s;
+    padding-bottom: 15px;
+}
+.inner-column-content h1:hover{
+    color: red;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+/*------------- all News page desing End -------------*/
 /*------------------ 
    tablet devices
 ------------------ */
@@ -299,6 +338,16 @@
         justify-content: space-around;
     }
     /* upcoming match desing end */
+
+
+    /*------------- letest-news-section start------------- */
+    .letest-news-container{
+        padding-left: 0;
+    }
+    
+    /*------------- letest-news-section end -------------*/
+
+
     /*--------- footer start ---------*/
     .footer-section{
         width: 100%;
@@ -426,6 +475,35 @@ mobile devices
         justify-content: space-around;
     }
     /* upcoming match desing end */
+
+     /*------------- letest-news-section start------------- */
+     .letest-news-container{
+        padding-left: 0;
+    }
+    .inner-column{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .inner-column-one-img img{
+        border-radius: 0;
+        width: 100%;
+    }
+    .inner-column-content{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .inner-column-content .news-title{
+        transition: color 0.2s, transform 0.2s;
+        padding-bottom: 15px;
+    }
+    .inner-column-content h1:hover{
+        color: red;
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
+    /*------------- letest-news-section end -------------*/
+
     /*--------- footer start --------*/
     .footer-section{
         width: 100%;
