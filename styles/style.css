@@ -114,6 +114,8 @@
 }
 .single-transfar-card img{
     width: 100%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 .card-content{
     padding: 20px;
