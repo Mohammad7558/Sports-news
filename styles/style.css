@@ -227,7 +227,7 @@ mobile devices
         padding: 0;
         background-color: transparent;
         width: 80%;
-        margin-bottom: 40px;
+        margin: 40px 0 40px 0;
     }
     .intarect-btn{
         text-decoration: none;
