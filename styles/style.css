@@ -130,7 +130,7 @@
 .transfar-card-details{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 .fa-regular{
     padding-right: 10px;
@@ -252,13 +252,14 @@
     .transfar-card-details{
         width: 38%;
     }
-    .bottom-hide-button{
+    .view-all-button .bottom-hide-button{
         display: block;
         margin: 50px 0;
     }
     /*--------- footer start ---------*/
     .footer-section{
         width: 100%;
+        margin-top: 0;
     }
     .footer-container{
         width: 70%;
@@ -364,7 +365,7 @@ mobile devices
         padding-left: 0;
     }
     .transfar-card-details{
-        width: 40%;
+        width: 50%;
     }
     .bottom-hide-button{
         display: none;
