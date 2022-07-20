@@ -131,6 +131,9 @@ mobile devices
         margin: auto;
     }
     .banner-button .fa-angle-right{
-        transform: translate(5px, 2px);
+        transform: translate(10px, 2px);
+    }
+    .banner-button:hover .fa-angle-right{
+        transform: translate(13px, 2px);
     }
 }
