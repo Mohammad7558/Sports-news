@@ -1,0 +1,136 @@
+/*------- google font --------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-------- top banner style ----------*/
+.top-banner{
+    width: 90%;
+    margin: 0 auto;
+}
+.top-banner-flexible-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161616;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.half-width{
+    width: 50%;
+}
+.banner-title, .banner-description, .banner-button{
+    color: #fff;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4.4em;
+    line-height: 70px;
+}
+.banner-description{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 20px 0 30px 0;
+}
+.banner-button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    transition: letter-spacing 0.3s, background-color 0.3s;
+}
+.banner-button:hover{
+    letter-spacing: 2px;
+    background-color: gold;
+}
+.fa-angle-right{
+    transition: transform 0.3s;
+}
+.banner-button:hover .fa-angle-right{
+    transform: translateX(10px);
+}
+.top-banner-img{
+    display: flex;
+    justify-content: center;
+}
+.top-banner-img img{
+    width: 80%;
+}
+
+/*------------------ 
+   tablet devices
+------------------ */
+@media screen and (min-width:689px) and (max-width: 992px) {
+    .top-banner-flexible-container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .banner-title{
+        font-size: 2.5em;
+        line-height: 40px;
+    }
+    .banner-paragraph{
+        font-size: 0.2em;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        line-height: 20px;
+    }
+    .top-banner-img img{
+        transform: translateY(20px);
+    }
+}
+/*--------------- 
+mobile devices
+--------------- */
+@media screen and (max-width:688px) {
+    .half-width{
+        width: 100%;
+    }
+    .top-banner-flexible-container{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-title{
+        font-size: 1.5em;
+        line-height: 40px;
+        text-align: center;
+    }
+    .banner-description{
+        width: 300px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+    }
+    .banner-paragraph{
+        font-size: 0.2em;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        line-height: 24px;
+        text-align: center;
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .banner-button{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+    }
+    .banner-button .fa-angle-right{
+        transform: translate(5px, 2px);
+    }
+}
