@@ -102,7 +102,7 @@
 }
 .single-transfar-card{
     border: 1px solid lightgray;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 .single-transfar-card img{
     width: 100%;
@@ -133,7 +133,7 @@
 .fa-regular{
     padding-right: 10px;
 }
-.bottom-hide-button{
+.view-all-button .bottom-hide-button{
     display: none;
 }
 /*------------------ 
